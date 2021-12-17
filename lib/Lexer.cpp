@@ -1,4 +1,4 @@
-#include "kaliedoscope/Lexer.h"
+#include "kaleidoscope/Lexer.h"
 
 #include <fstream>
 #include <iostream>

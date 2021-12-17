@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(kaliedoscope  VERSION 1.0
-                      DESCRIPTION "Kaliedoscope LLVM"
+project(kaleidoscope  VERSION 1.0
+                      DESCRIPTION "Kaleidoscope LLVM"
                       LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 14 CACHE STRING "C++ standard to conform to")

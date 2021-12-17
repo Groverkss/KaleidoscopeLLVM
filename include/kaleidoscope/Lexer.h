@@ -1,7 +1,7 @@
 #ifndef _KALIEDOSCOPE_LEXER_H_
 #define _KALIEDOSCOPE_LEXER_H_
 
-#include "kaliedoscope/Token.h"
+#include "kaleidoscope/Token.h"
 
 #include <iterator>
 #include <memory>

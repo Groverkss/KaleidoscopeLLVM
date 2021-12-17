@@ -1,10 +1,10 @@
-#include "kaliedoscope/Lexer.h"
+#include "kaleidoscope/Lexer.h"
 
 #include <iostream>
 
 int main(int argc, char *argv[]) {
   if (argc != 2) {
-    std::cerr << "Usage: kaliedoscope <filename>\n";
+    std::cerr << "Usage: kaleidoscope <filename>\n";
     return 1;
   }
 
