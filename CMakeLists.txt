@@ -10,7 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "Create indexing for clangd"
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Compile DEBUG builds with debug flags
-set(CMAKE_CXX_FLAGS_DEBUG_INIT "-Wall -g")
+set(CMAKE_CXX_FLAGS_DEBUG_INIT "-Wall -g -DNDEBUG")
 
 # Compile RELEASE builds with optimization flags
 set(CMAKE_CXX_FLAGS_RELEASE_INIT "-O3")
